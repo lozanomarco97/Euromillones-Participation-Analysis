@@ -3,10 +3,10 @@ Analyzing historical participation patterns in the Euromillones lottery and pred
 
 ## Motivation
 The goal is to understand how participation varies over time and according to different factors such as jackpot size, day of the week, and seasonal trends. 
-This allows us to explore cyclic patterns and predict participation behavior.
+This allows us to explore cyclic patterns and predict participation behavior. This pattern is important since in Spain there is an extra price ('EL MILLON') of 1 million euros always randomly selected from the tickets that are sold. Hence, the lower the participation, the higher the probability to get this price. 
 
 ## Data
-- Source: Euromillones historical data (2004–2026)
+- Source: Euromillones historical data (https://www.loteriasyapuestas.es/es/resultados/euromillones)
 - Preprocessing:
   - Data cleaning with Pandas
   - Feature engineering: day of the week, day of the year as cyclical variables, jackpot size
@@ -32,4 +32,4 @@ This allows us to explore cyclic patterns and predict participation behavior.
 2. Install dependencies: `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`
 3. Run the notebook:
 ```bash
-jupyter notebook EuromillonesAnalysis.ipynb
+jupyter notebook Euromillones_analisis.ipynb
